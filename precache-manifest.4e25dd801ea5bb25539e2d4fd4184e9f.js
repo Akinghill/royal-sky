@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ce4297ed9d9d56853a31571f77601897",
+    "revision": "7c2d8820b6c54310efc7ce700a22e81d",
     "url": "/royal-sky/index.html"
   },
   {
-    "revision": "092e051c4f63dbbae8f2",
+    "revision": "6cd70457542c6eb7d259",
     "url": "/royal-sky/static/css/main.07914211.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/royal-sky/static/js/2.f5a1fe39.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "092e051c4f63dbbae8f2",
-    "url": "/royal-sky/static/js/main.5194cb93.chunk.js"
+    "revision": "6cd70457542c6eb7d259",
+    "url": "/royal-sky/static/js/main.f93bd8e0.chunk.js"
   },
   {
     "revision": "50eeff2413b19ea5c17e",

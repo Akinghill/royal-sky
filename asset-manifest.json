@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/royal-sky/static/css/main.07914211.chunk.css",
-    "main.js": "/royal-sky/static/js/main.5194cb93.chunk.js",
-    "main.js.map": "/royal-sky/static/js/main.5194cb93.chunk.js.map",
+    "main.js": "/royal-sky/static/js/main.f93bd8e0.chunk.js",
+    "main.js.map": "/royal-sky/static/js/main.f93bd8e0.chunk.js.map",
     "runtime-main.js": "/royal-sky/static/js/runtime-main.0d7e7763.js",
     "runtime-main.js.map": "/royal-sky/static/js/runtime-main.0d7e7763.js.map",
     "static/js/2.f5a1fe39.chunk.js": "/royal-sky/static/js/2.f5a1fe39.chunk.js",
     "static/js/2.f5a1fe39.chunk.js.map": "/royal-sky/static/js/2.f5a1fe39.chunk.js.map",
     "index.html": "/royal-sky/index.html",
-    "precache-manifest.ea1c173ede7ff6db90866ff715f95d53.js": "/royal-sky/precache-manifest.ea1c173ede7ff6db90866ff715f95d53.js",
+    "precache-manifest.4e25dd801ea5bb25539e2d4fd4184e9f.js": "/royal-sky/precache-manifest.4e25dd801ea5bb25539e2d4fd4184e9f.js",
     "service-worker.js": "/royal-sky/service-worker.js",
     "static/css/main.07914211.chunk.css.map": "/royal-sky/static/css/main.07914211.chunk.css.map",
     "static/js/2.f5a1fe39.chunk.js.LICENSE.txt": "/royal-sky/static/js/2.f5a1fe39.chunk.js.LICENSE.txt",
@@ -19,6 +19,6 @@
     "static/js/runtime-main.0d7e7763.js",
     "static/js/2.f5a1fe39.chunk.js",
     "static/css/main.07914211.chunk.css",
-    "static/js/main.5194cb93.chunk.js"
+    "static/js/main.f93bd8e0.chunk.js"
   ]
 }
