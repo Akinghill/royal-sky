@@ -1,24 +1,24 @@
 {
   "files": {
     "main.css": "/royal-sky/static/css/main.07914211.chunk.css",
-    "main.js": "/royal-sky/static/js/main.d9a766d8.chunk.js",
-    "main.js.map": "/royal-sky/static/js/main.d9a766d8.chunk.js.map",
+    "main.js": "/royal-sky/static/js/main.5194cb93.chunk.js",
+    "main.js.map": "/royal-sky/static/js/main.5194cb93.chunk.js.map",
     "runtime-main.js": "/royal-sky/static/js/runtime-main.0d7e7763.js",
     "runtime-main.js.map": "/royal-sky/static/js/runtime-main.0d7e7763.js.map",
-    "static/js/2.e35d2604.chunk.js": "/royal-sky/static/js/2.e35d2604.chunk.js",
-    "static/js/2.e35d2604.chunk.js.map": "/royal-sky/static/js/2.e35d2604.chunk.js.map",
+    "static/js/2.f5a1fe39.chunk.js": "/royal-sky/static/js/2.f5a1fe39.chunk.js",
+    "static/js/2.f5a1fe39.chunk.js.map": "/royal-sky/static/js/2.f5a1fe39.chunk.js.map",
     "index.html": "/royal-sky/index.html",
-    "precache-manifest.06203cf69e351ed6347dd84633b28b41.js": "/royal-sky/precache-manifest.06203cf69e351ed6347dd84633b28b41.js",
+    "precache-manifest.ea1c173ede7ff6db90866ff715f95d53.js": "/royal-sky/precache-manifest.ea1c173ede7ff6db90866ff715f95d53.js",
     "service-worker.js": "/royal-sky/service-worker.js",
     "static/css/main.07914211.chunk.css.map": "/royal-sky/static/css/main.07914211.chunk.css.map",
-    "static/js/2.e35d2604.chunk.js.LICENSE.txt": "/royal-sky/static/js/2.e35d2604.chunk.js.LICENSE.txt",
+    "static/js/2.f5a1fe39.chunk.js.LICENSE.txt": "/royal-sky/static/js/2.f5a1fe39.chunk.js.LICENSE.txt",
     "static/media/crown.ed28accb.svg": "/royal-sky/static/media/crown.ed28accb.svg",
     "static/media/shopping-bag.30f07071.svg": "/royal-sky/static/media/shopping-bag.30f07071.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.0d7e7763.js",
-    "static/js/2.e35d2604.chunk.js",
+    "static/js/2.f5a1fe39.chunk.js",
     "static/css/main.07914211.chunk.css",
-    "static/js/main.d9a766d8.chunk.js"
+    "static/js/main.5194cb93.chunk.js"
   ]
 }
