@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/royal-sky/precache-manifest.85ff9f788d04b8387b5deb1f65675a03.js"
+  "/royal-sky/precache-manifest.29df5323b1f47150308c3d8f789d98b3.js"
 );
 
 self.addEventListener('message', (event) => {
