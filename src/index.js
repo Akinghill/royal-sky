@@ -10,7 +10,7 @@ import App from './App';
 
 ReactDOM.render(
   <Provider store={store}>
-    <BrowserRouter basename="royal-sky">
+    <BrowserRouter basename='royal-sky'>
       <PersistGate persistor={persistor}>
         <App />
       </PersistGate>
