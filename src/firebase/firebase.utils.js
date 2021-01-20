@@ -1,43 +1,44 @@
-import firebase from 'firebase/app'
-import 'firebase/firestore'
-import 'firebase/auth'
+import firebase from 'firebase/app';
+import 'firebase/firestore';
+import 'firebase/auth';
 
 const config = {
-  apiKey: "AIzaSyC-YHVpnOS6nfYmRuDsvUDHTxZStT1qayI",
-  authDomain: "royal-sky-clothing.firebaseapp.com",
-  databaseURL: "https://royal-sky-clothing.firebaseio.com",
-  projectId: "royal-sky-clothing",
-  storageBucket: "royal-sky-clothing.appspot.com",
-  messagingSenderId: "840435294055",
-  appId: "1:840435294055:web:27121f65be7482b0c319c2",
-  measurementId: "G-HMW299XBFV"
-}
+  apiKey: 'AIzaSyC-YHVpnOS6nfYmRuDsvUDHTxZStT1qayI',
+  authDomain: 'royal-sky-clothing.firebaseapp.com',
+  databaseURL: 'https://royal-sky-clothing.firebaseio.com',
+  projectId: 'royal-sky-clothing',
+  storageBucket: 'royal-sky-clothing.appspot.com',
+  messagingSenderId: '840435294055',
+  appId: '1:840435294055:web:27121f65be7482b0c319c2',
+  measurementId: 'G-HMW299XBFV',
+};
+
+firebase.initializeApp(config);
 
 export const createUserProfileDocument = async (userAuth, additionalData) => {
   if (!userAuth) return;
 
-  const userRef = firestore.doc(`users/${userAuth.uid}`)
+  const userRef = firestore.doc(`users/${userAuth.uid}`);
 
-  const snapShot = await userRef.get()
-
+  const snapShot = await userRef.get();
 
   if (!snapShot.exists) {
     const { displayName, email } = userAuth;
-    const createdAt = new Date()
+    const createdAt = new Date();
 
     try {
       await userRef.set({
         displayName,
         email,
         createdAt,
-        ...additionalData
-      })
+        ...additionalData,
+      });
     } catch (error) {
       console.log('error ceating user', error.message);
     }
   }
-  return userRef
-}
+  return userRef;
+};
 
 export const addCollectionAndDocuments = async (
   collectionKey,
@@ -72,13 +73,20 @@ export const convertCollectionsSnapshotToMap = (collections) => {
   }, {});
 };
 
-firebase.initializeApp(config)
+export const getCurrentUser = () => {
+  return new Promise((resolve, reject) => {
+    const unsubscribe = auth.onAuthStateChanged((userAuth) => {
+      unsubscribe();
+      resolve(userAuth);
+    }, reject);
+  });
+};
 
-export const auth = firebase.auth()
-export const firestore = firebase.firestore()
+export const auth = firebase.auth();
+export const firestore = firebase.firestore();
 
-const provider = new firebase.auth.GoogleAuthProvider()
-provider.setCustomParameters({ prompt: 'select_account' })
-export const signInWithGoogle = () => auth.signInWithPopup(provider)
+export const googleProvider = new firebase.auth.GoogleAuthProvider();
+googleProvider.setCustomParameters({ prompt: 'select_account' });
+export const signInWithGoogle = () => auth.signInWithPopup(googleProvider);
 
-export default firebase
+export default firebase;
