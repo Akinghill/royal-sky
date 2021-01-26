@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/royal-sky/static/css/main.8e18eaf4.chunk.css",
+    "main.js": "/royal-sky/static/js/main.832ffc91.chunk.js",
+    "main.js.map": "/royal-sky/static/js/main.832ffc91.chunk.js.map",
+    "runtime-main.js": "/royal-sky/static/js/runtime-main.0d7e7763.js",
+    "runtime-main.js.map": "/royal-sky/static/js/runtime-main.0d7e7763.js.map",
+    "static/js/2.ba5a7105.chunk.js": "/royal-sky/static/js/2.ba5a7105.chunk.js",
+    "static/js/2.ba5a7105.chunk.js.map": "/royal-sky/static/js/2.ba5a7105.chunk.js.map",
+    "index.html": "/royal-sky/index.html",
+    "precache-manifest.29df5323b1f47150308c3d8f789d98b3.js": "/royal-sky/precache-manifest.29df5323b1f47150308c3d8f789d98b3.js",
+    "service-worker.js": "/royal-sky/service-worker.js",
+    "static/css/main.8e18eaf4.chunk.css.map": "/royal-sky/static/css/main.8e18eaf4.chunk.css.map",
+    "static/js/2.ba5a7105.chunk.js.LICENSE.txt": "/royal-sky/static/js/2.ba5a7105.chunk.js.LICENSE.txt",
+    "static/media/crown.ed28accb.svg": "/royal-sky/static/media/crown.ed28accb.svg",
+    "static/media/shopping-bag.30f07071.svg": "/royal-sky/static/media/shopping-bag.30f07071.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0d7e7763.js",
+    "static/js/2.ba5a7105.chunk.js",
+    "static/css/main.8e18eaf4.chunk.css",
+    "static/js/main.832ffc91.chunk.js"
+  ]
+}
