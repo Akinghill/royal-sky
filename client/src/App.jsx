@@ -19,10 +19,6 @@ const App = ({ checkUserSession, currentUser }) => {
     checkUserSession();
   }, [checkUserSession]);
 
-  // componentWillUnmount() {
-  //   this.unsubscribeFromAuth();
-  // }
-
   return (
     <div>
       <GlobalStyle />
